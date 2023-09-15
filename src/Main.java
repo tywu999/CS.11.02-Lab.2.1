@@ -29,10 +29,10 @@ public class Main {
     }
 
     public static String morningGreeting(String string){
-        return "早上好, " + string;
+        return "早上好, " + string + "!";
     }
     public static String afternoonGreeting(String string){
-        return "下午好, " + string;
+        return "下午好, " + string + "!";
     }
     public static String triple(String string){
         return string + string + string;
