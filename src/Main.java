@@ -4,7 +4,7 @@ public class Main {
         int b = 10;
         int result = add(a, b);
         System.out.println("The sum of " + a + " and " + b + " is: " + result);
-        int result2 = add4(3, 8, 9, 10);
+        int result2 = add(3, 8, 9, 10);
         System.out.println(result2);
         String hello = morningGreeting("Toby Fox");
         System.out.println(hello);
@@ -24,7 +24,7 @@ public class Main {
     public static int add(int a, int b) {
         return a + b;
     }
-    public static int add4(int a, int b, int c, int d) {
+    public static int add(int a, int b, int c, int d) {
         return add(add(a, b), add(c, d));
     }
 
